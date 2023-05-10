@@ -3,8 +3,8 @@
 # How to Run
 
 1. Install Python Modules 
-  - pip install urllib3==1.26.6
   - pip install requests
+  - pip install urllib3==1.26.6
 2. Run Weather App
   - python app.py
   - Enter City Name
