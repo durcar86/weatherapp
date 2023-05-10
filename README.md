@@ -1,4 +1,4 @@
-# weatherapp
+# The weatherapp
 
 # How to Run
 
