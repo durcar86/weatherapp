@@ -11,9 +11,11 @@ humidity = data['main']['humidity']
 pressure = data['main']['pressure']
 wind = data['wind']['speed']
 description = data['weather'][0]['description']
-temp = data['main']['temp']
+tempc = data['main']['temp']
+tempf =(tempc*9/5)+32
 
-print('Temperature:',temp,'°C')
+print('Temperature:',tempc,'°C')
+print('Temperature:',tempf,'°F')
 print('Wind:',wind)
 print('Pressure: ',pressure)
 print('Humidity: ',humidity)
