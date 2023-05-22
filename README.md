@@ -5,7 +5,10 @@
 1. Install Python Modules 
   - pip install requests
   - pip install urllib3==1.26.6
-2. Run Weather App
+2. Create account at https://openweathermap.org/
+  - Get API key
+  - Enter API Key in app.py
+3. Run Weather App
   - python app.py
   - Enter City Name
   
